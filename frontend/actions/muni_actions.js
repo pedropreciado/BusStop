@@ -45,3 +45,8 @@ const receiveMuniStop = stop => ({
   type: RECEIVE_MUNI_STOP,
   stop
 })
+
+const receiveMuniPredictions = predictions => ({
+  type: RECEIVE_MUNI_PREDICTIONS,
+  predictions
+})
