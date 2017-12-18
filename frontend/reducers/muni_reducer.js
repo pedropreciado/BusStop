@@ -16,8 +16,6 @@ const MuniReducer = (oldState = {}, action) => {
       return merge({}, action.line);
     case RECEIVE_ALL_MUNI_STOPS:
       return merge({}, action.stops);
-    case RECEIVE_MUNI_STOP:
-      return merge({}, action.stop);
     case RECEIVE_MUNI_PREDICTIONS:
       return merge({}, action.predictions);
       default:

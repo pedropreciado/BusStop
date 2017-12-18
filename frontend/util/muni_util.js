@@ -22,12 +22,7 @@ export const fetchStops = () => {
   })
 }
 
-export const fetchStop = () => {
-  return $.ajax({
-    "method": "GET",
-    "url":
-  })
-}
+
 
 export const fetchPredictionsAtStop = (id) => {
   return $.ajax({
